@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fat Blog</title>
-    <link>futingfei.github.io/tags/</link>
+    <link>tingfei.art/tags/</link>
     <description>Recent content in Tags on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:52:52 +0800</lastBuildDate><atom:link href="futingfei.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 17:52:52 +0800</lastBuildDate><atom:link href="tingfei.art/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>科幻 读书笔记</title>
-      <link>futingfei.github.io/tags/%E7%A7%91%E5%B9%BB-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>tingfei.art/tags/%E7%A7%91%E5%B9%BB-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 09 Nov 2020 17:52:52 +0800</pubDate>
       
-      <guid>futingfei.github.io/tags/%E7%A7%91%E5%B9%BB-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <guid>tingfei.art/tags/%E7%A7%91%E5%B9%BB-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rust web</title>
-      <link>futingfei.github.io/tags/rust-web/</link>
+      <link>tingfei.art/tags/rust-web/</link>
       <pubDate>Sat, 24 Oct 2020 17:49:20 +0800</pubDate>
       
-      <guid>futingfei.github.io/tags/rust-web/</guid>
+      <guid>tingfei.art/tags/rust-web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>区块链 比特币</title>
-      <link>futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</link>
+      <link>tingfei.art/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</link>
       <pubDate>Sun, 24 Nov 2019 17:47:13 +0800</pubDate>
       
-      <guid>futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</guid>
+      <guid>tingfei.art/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>futingfei.github.io/tags/tips/</link>
+      <link>tingfei.art/tags/tips/</link>
       <pubDate>Sat, 02 Nov 2019 17:29:15 +0800</pubDate>
       
-      <guid>futingfei.github.io/tags/tips/</guid>
+      <guid>tingfei.art/tags/tips/</guid>
       <description></description>
     </item>
     

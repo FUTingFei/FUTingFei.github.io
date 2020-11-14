@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rust web on Fat Blog</title>
-    <link>futingfei.github.io/tags/rust-web/</link>
+    <link>tingfei.art/tags/rust-web/</link>
     <description>Recent content in rust web on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 17:49:20 +0800</lastBuildDate><atom:link href="futingfei.github.io/tags/rust-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 17:49:20 +0800</lastBuildDate><atom:link href="tingfei.art/tags/rust-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>想学学 web 开发？来看看这个项目：RealWorld</title>
-      <link>futingfei.github.io/posts/real-world/</link>
+      <link>tingfei.art/posts/real-world/</link>
       <pubDate>Sat, 24 Oct 2020 17:49:20 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/real-world/</guid>
+      <guid>tingfei.art/posts/real-world/</guid>
       <description>最近想学习一下用 Rust 开发 web 应用，以便之后快速搭建 web 服务。程序员嘛，难免偶尔就要搭个网站什么的。
 关于框架和语言的选择，我想用 Rust 做后端，React 做前端。用 Rust 作后端因为 Rust 是我目前的主力开发语言，想多用用。本来也想用 Rust 开发前端的，然后也有 Yew 这样比较优秀的 Rust 前端框架，但是想了想 React 的生态，只能说真香了。
 在 GitHub 上一番搜索后发现了这个超出我预期的项目：RealWorld

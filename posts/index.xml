@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fat Blog</title>
-    <link>futingfei.github.io/posts/</link>
+    <link>tingfei.art/posts/</link>
     <description>Recent content in Posts on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:52:52 +0800</lastBuildDate><atom:link href="futingfei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 17:52:52 +0800</lastBuildDate><atom:link href="tingfei.art/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近看的几本科幻</title>
-      <link>futingfei.github.io/posts/some-sf/</link>
+      <link>tingfei.art/posts/some-sf/</link>
       <pubDate>Mon, 09 Nov 2020 17:52:52 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/some-sf/</guid>
+      <guid>tingfei.art/posts/some-sf/</guid>
       <description>最近几个月不知不觉养成了睡前看科幻的习惯，因为睡前感觉自己比较放空，读科幻的时候代入感就很强，仿佛自己真的进入了那些世界里一样。还有一个好处就是避免自己刷手机，睡前老是想刷手机，一刷手机的话就又睡不够了。
 神农后裔 题材是很新颖的，古代传说中的人物会以怎样的科幻形式展开呢，一下子就吸引了我的眼球。但是具体看下来的话，涉及古代人物的篇幅主要是作为开篇伏笔，主干内容中除了借用了几个古姓之外似乎并没有太多与古代传说相关的东西。
 另外有些场景，古代和现代的内容处理的不是很和谐就会给我一种诸葛亮开着兰博基尼的奇怪感觉。所以总体来说，这部小说还是有点不满足我的期望的，不过这本小说还没有完结，后续还是值得期待的。
@@ -30,10 +30,10 @@
     
     <item>
       <title>想学学 web 开发？来看看这个项目：RealWorld</title>
-      <link>futingfei.github.io/posts/real-world/</link>
+      <link>tingfei.art/posts/real-world/</link>
       <pubDate>Sat, 24 Oct 2020 17:49:20 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/real-world/</guid>
+      <guid>tingfei.art/posts/real-world/</guid>
       <description>最近想学习一下用 Rust 开发 web 应用，以便之后快速搭建 web 服务。程序员嘛，难免偶尔就要搭个网站什么的。
 关于框架和语言的选择，我想用 Rust 做后端，React 做前端。用 Rust 作后端因为 Rust 是我目前的主力开发语言，想多用用。本来也想用 Rust 开发前端的，然后也有 Yew 这样比较优秀的 Rust 前端框架，但是想了想 React 的生态，只能说真香了。
 在 GitHub 上一番搜索后发现了这个超出我预期的项目：RealWorld
@@ -49,10 +49,10 @@
     
     <item>
       <title>重读精通比特币</title>
-      <link>futingfei.github.io/posts/mastering-bitcoin/</link>
+      <link>tingfei.art/posts/mastering-bitcoin/</link>
       <pubDate>Sun, 24 Nov 2019 17:47:13 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/mastering-bitcoin/</guid>
+      <guid>tingfei.art/posts/mastering-bitcoin/</guid>
       <description>《精通比特币》这本书说实话我就很久很久以前别人就给我推荐过，我也断断续续的看了几次了（好像每次都没有完整的读完）
 但是有些概念，总是理解的模模糊糊，特别是我最近读 parity-bitcoin 源码的时候，总会时不时的有一些疑问
 就比如隔离见证，虽然之前概念都算勉强知道，但是等到代码层面就有点吃力了
@@ -71,10 +71,10 @@
     
     <item>
       <title>什么是双拼输入法？</title>
-      <link>futingfei.github.io/posts/shuang-pin/</link>
+      <link>tingfei.art/posts/shuang-pin/</link>
       <pubDate>Sat, 02 Nov 2019 17:29:15 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/shuang-pin/</guid>
+      <guid>tingfei.art/posts/shuang-pin/</guid>
       <description>什么是双拼输入法？
  双拼是汉语拼音输入法的一种编码方案。相对于全拼而言，使用双拼输入汉字时只需输入一个代表声母的字母，一个代表韵母的字母，就可以打出任意一个中文单字了。维基百科
  也就是说只用两次击键就可以拼写任何一个汉字。想想 shuang xiang ping等等拼音，对于拼写效率的提高可想而知。
