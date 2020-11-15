@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>区块链 比特币 on Fat Blog</title>
-    <link>futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</link>
+    <link>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/</link>
     <description>Recent content in 区块链 比特币 on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2019 17:47:13 +0800</lastBuildDate><atom:link href="futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2019 17:47:13 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%AF%94%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重读精通比特币</title>
-      <link>futingfei.github.io/posts/mastering-bitcoin/</link>
+      <link>https://futingfei.github.io/posts/mastering-bitcoin/</link>
       <pubDate>Sun, 24 Nov 2019 17:47:13 +0800</pubDate>
       
-      <guid>futingfei.github.io/posts/mastering-bitcoin/</guid>
+      <guid>https://futingfei.github.io/posts/mastering-bitcoin/</guid>
       <description>《精通比特币》这本书说实话我就很久很久以前别人就给我推荐过，我也断断续续的看了几次了（好像每次都没有完整的读完）
 但是有些概念，总是理解的模模糊糊，特别是我最近读 parity-bitcoin 源码的时候，总会时不时的有一些疑问
 就比如隔离见证，虽然之前概念都算勉强知道，但是等到代码层面就有点吃力了
