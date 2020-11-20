@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:52:52 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2020 15:11:30 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么用 assert_eq 比较 string 和 &amp;str 会成功？</title>
+      <link>https://futingfei.github.io/posts/compare_string_and_str/</link>
+      <pubDate>Fri, 20 Nov 2020 15:11:30 +0800</pubDate>
+      
+      <guid>https://futingfei.github.io/posts/compare_string_and_str/</guid>
+      <description>昨天写代码的时候发现用 assert_eq 比较 string 和 &amp;amp;str 会成功，如下：
+let s1 = String::from(&amp;#34;hello&amp;#34;); let s2 = &amp;#34;hello&amp;#34;; assert_eq!(s1, s2); 凭直觉来讲，这不应该能通过，因为 string 和 &amp;amp;str 是两种类型，然后我觉得是 assert_eq 这个宏做了特殊处理，于是我又试了一下
+let s1 = String::from(&amp;#34;hello&amp;#34;); let s2 = &amp;#34;hello&amp;#34;; assert!(s1 == s2); 发现也没有问题，这说明和 assert_eq 没啥关系，于是我在 reddit 以及 Rust 中文社区提问，一个老哥的回答是：
+ String and &amp;amp;str cannot be compared at all, so Rust will look for ways to make the comparison possible. It will find that s1.deref() returns &amp;amp;str which obviously can be compared to &amp;amp;str (because Strings implement Deref&amp;lt;Target=str&amp;gt;) so it will automatically use that.</description>
+    </item>
+    
     <item>
       <title>最近看的几本科幻</title>
       <link>https://futingfei.github.io/posts/some-sf/</link>
