@@ -229,50 +229,50 @@ assert<span style="color:#f92672">!</span>(s1 <span style="color:#f92672">==</sp
 <blockquote>
 <p>这个说法是错的，跟 Deref 没有直接的关系，你可以这样写：</p>
 </blockquote>
-<pre><code>// assert macro will print using debug format
-#[derive(Debug)]
-struct S {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Rust" data-lang="Rust"><span style="color:#75715e">// assert macro will print using debug format
+</span><span style="color:#75715e"></span><span style="color:#75715e">#[derive(Debug)]</span>
+<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">S</span> {
     inner: String,
 }
 
-impl S {
-    pub fn new(inner: &amp;str) -&gt; Self {
+<span style="color:#66d9ef">impl</span> S {
+    <span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">new</span>(inner: <span style="color:#66d9ef">&amp;</span><span style="color:#66d9ef">str</span>) -&gt; <span style="color:#a6e22e">Self</span> {
         Self {
-            inner: inner.to_owned(),
+            inner: <span style="color:#a6e22e">inner</span>.to_owned(),
         }
     }
 }
 
-impl std::cmp::PartialEq&lt;&amp;str&gt; for S {
-    fn eq(&amp;self, other: &amp;&amp;str) -&gt; bool {
-        return self.inner.eq(other);
+<span style="color:#66d9ef">impl</span> std::cmp::PartialEq<span style="color:#f92672">&lt;&amp;</span><span style="color:#66d9ef">str</span><span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">for</span> S {
+    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">eq</span>(<span style="color:#f92672">&amp;</span>self, other: <span style="color:#66d9ef">&amp;&amp;</span><span style="color:#66d9ef">str</span>) -&gt; <span style="color:#66d9ef">bool</span> {
+        <span style="color:#66d9ef">return</span> self.inner.eq(other);
     }
 }
 
-// comment for compile error
-impl std::cmp::PartialEq&lt;S&gt; for &amp;str {
-    fn eq(&amp;self, _other: &amp;S) -&gt; bool {
-        return false;
+<span style="color:#75715e">// comment for compile error
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">impl</span> std::cmp::PartialEq<span style="color:#f92672">&lt;</span>S<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">for</span> <span style="color:#f92672">&amp;</span><span style="color:#66d9ef">str</span> {
+    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">eq</span>(<span style="color:#f92672">&amp;</span>self, _other: <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">S</span>) -&gt; <span style="color:#66d9ef">bool</span> {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
     }
 }
 
-fn main() {
-    let s = &quot;hello&quot;;
-    let string = String::from(&quot;hello&quot;);
-    let fake_string = S::new(&quot;hello&quot;);
-    assert_eq!(string, s);
-    assert_eq!(fake_string, s);
-    assert_eq!(s, fake_string);
+<span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() {
+    <span style="color:#66d9ef">let</span> s <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>;
+    <span style="color:#66d9ef">let</span> string <span style="color:#f92672">=</span> String::from(<span style="color:#e6db74">&#34;hello&#34;</span>);
+    <span style="color:#66d9ef">let</span> fake_string <span style="color:#f92672">=</span> S::new(<span style="color:#e6db74">&#34;hello&#34;</span>);
+    assert_eq<span style="color:#f92672">!</span>(string, s);
+    assert_eq<span style="color:#f92672">!</span>(fake_string, s);
+    assert_eq<span style="color:#f92672">!</span>(s, fake_string);
 }
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p>这里 S 没有实现任何 deref，但是还是可以通过编译。把 <code>assert_eq</code> 宏展开之后是这样的：</p>
 </blockquote>
-<pre><code>match (&amp;s, &amp;fake_string) {
-            (left_val, right_val) =&gt; {
-                if !(*left_val == *right_val) {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Rust" data-lang="Rust"><span style="color:#66d9ef">match</span> (<span style="color:#f92672">&amp;</span>s, <span style="color:#f92672">&amp;</span>fake_string) {
+            (left_val, right_val) <span style="color:#f92672">=&gt;</span> {
+                <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>(<span style="color:#f92672">*</span>left_val <span style="color:#f92672">==</span> <span style="color:#f92672">*</span>right_val) {
                     {
                         ::std::rt::begin_panic_fmt...
-</code></pre><blockquote>
+</code></pre></div><blockquote>
 <p>也就是说这里只调用了 lhs == rhs，只要实现了 PartialEq for Lhs 就可以了。 String 的文档里面两种顺序都实现了。</p>
 </blockquote>
 <p>后面通过翻<a href="https://doc.rust-lang.org/std/string/struct.String.html#impl-PartialEq%3C%26%27a%20str%3E">文档</a>发现 String 和 str 确实互相实现了 <a href="https://doc.rust-lang.org/std/cmp/trait.PartialEq.html">PartialEq Trait</a>，所以 String 和 &amp;str 是可以直接比较的。</p>
