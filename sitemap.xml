@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://futingfei.github.io/posts/digital_collections/</loc>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://futingfei.github.io/</loc>
-    <lastmod>2020-11-20T15:11:30+08:00</lastmod>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://futingfei.github.io/tags/nft/</loc>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://futingfei.github.io/posts/</loc>
-    <lastmod>2020-11-20T15:11:30+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://futingfei.github.io/tags/rust/</loc>
-    <lastmod>2020-11-20T15:11:30+08:00</lastmod>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://futingfei.github.io/tags/</loc>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
+    <lastmod>2020-12-22T14:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://futingfei.github.io/tags/rust/</loc>
     <lastmod>2020-11-20T15:11:30+08:00</lastmod>
   </url>
   
@@ -50,11 +65,6 @@
   <url>
     <loc>https://futingfei.github.io/posts/real-world/</loc>
     <lastmod>2020-10-24T17:49:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
-    <lastmod>2019-11-24T17:47:13+08:00</lastmod>
   </url>
   
   <url>

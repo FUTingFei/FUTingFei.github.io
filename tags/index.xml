@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2020 15:11:30 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 14:01:23 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFT</title>
+      <link>https://futingfei.github.io/tags/nft/</link>
+      <pubDate>Tue, 22 Dec 2020 14:01:23 +0800</pubDate>
+      
+      <guid>https://futingfei.github.io/tags/nft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>区块链</title>
+      <link>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
+      <pubDate>Tue, 22 Dec 2020 14:01:23 +0800</pubDate>
+      
+      <guid>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>rust</title>
       <link>https://futingfei.github.io/tags/rust/</link>
@@ -40,15 +58,6 @@
       <pubDate>Sat, 24 Oct 2020 17:49:20 +0800</pubDate>
       
       <guid>https://futingfei.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>区块链</title>
-      <link>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
-      <pubDate>Sun, 24 Nov 2019 17:47:13 +0800</pubDate>
-      
-      <guid>https://futingfei.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
       <description></description>
     </item>
     
