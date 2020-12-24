@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>比特币 on Fat Blog</title>
-    <link>https://futingfei.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</link>
-    <description>Recent content in 比特币 on Fat Blog</description>
+    <title>mastering bitcoin on Fat Blog</title>
+    <link>https://futingfei.github.io/tags/mastering-bitcoin/</link>
+    <description>Recent content in mastering bitcoin on Fat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 22:18:37 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2020 22:18:37 +0800</lastBuildDate><atom:link href="https://futingfei.github.io/tags/mastering-bitcoin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重读精通比特币：比特币介绍</title>
       <link>https://futingfei.github.io/posts/into_to_bitcoin/</link>
