@@ -13,7 +13,7 @@
       <pubDate>Fri, 05 Mar 2021 17:47:53 +0800</pubDate>
       
       <guid>https://futingfei.github.io/posts/one_billion_ai_algorithm/</guid>
-      <description>#![allow(unused)] use std::io::stdin; fn main() { loop { let mut s = String::new(); stdin().read_line(&amp;amp;mut s) .expect(&amp;#34;Failed to read line.&amp;#34;); s = s.replace(&amp;#34;吗&amp;#34;, &amp;#34;&amp;#34;); s = s.replace(&amp;#34;我&amp;#34;, &amp;#34;你&amp;#34;); s = s.replace(&amp;#34;艾瑞斯&amp;#34;, &amp;#34;&amp;#34;); s = s.replace(&amp;#34;?&amp;#34;, &amp;#34;!&amp;#34;); println!(&amp;#34;艾瑞斯：{}&amp;#34;, s); } } 使用 你好 艾瑞斯：你好 今天天气好吗 艾瑞斯：今天天气好 我是世界上最美的人吗 艾瑞斯：你是世界上最美的人 天呐,我竟然是猪 艾瑞斯：天呐,你竟然是猪 吃饭? 艾瑞斯：吃饭! 来源 https://github.com/ruanyf/weekly/issues/158
+      <description>#![allow(unused)] use std::io::stdin; fn main() { loop { let mut s = String::new(); stdin().read_line(&amp;amp;mut s) .expect(&amp;#34;Failed to read line.&amp;#34;); s = s.replace(&amp;#34;吗&amp;#34;, &amp;#34;&amp;#34;); s = s.replace(&amp;#34;我&amp;#34;, &amp;#34;你&amp;#34;); s = s.replace(&amp;#34;?&amp;#34;, &amp;#34;!&amp;#34;); println!(&amp;#34;艾瑞斯：{}&amp;#34;, s); } } 使用 你好 艾瑞斯：你好 今天天气好吗 艾瑞斯：今天天气好 我是世界上最美的人吗 艾瑞斯：你是世界上最美的人 天呐,我竟然是猪 艾瑞斯：天呐,你竟然是猪 吃饭? 艾瑞斯：吃饭! 来源 https://github.com/ruanyf/weekly/issues/158
  Just for fun 🤣</description>
     </item>
     
